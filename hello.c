@@ -1,6 +1,6 @@
 #include <stdio.h>
 main()
 {
-  printf("hello, world  Webhook\n");
+  printf("hello, world Webhook\n");
 }
 
