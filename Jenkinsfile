@@ -20,9 +20,7 @@ pipeline {
             steps {
             //    ws('/home/jenkins/thiru') {
                     // Run Maven on a Unix agent.
-                    sh "echo $PATH"
-                    sh "id"
-                    sh 'ant -f build.xml'
+                    sh './build.sh'
             //    }
             }
         }
